@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: c8-same-cluster
+  name: c8-azure-cluster
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
@@ -28,8 +28,8 @@ spec:
             persistence:
               size: 15Gi
   destination:
-    server: https://kubernetes.default.svc
-    namespace: camunda
+    server: jens-test
+    namespace: default
   syncPolicy:
     automated:
       prune: true
