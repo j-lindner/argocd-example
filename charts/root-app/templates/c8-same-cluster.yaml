@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://helm.camunda.io/
     chart: camunda-platform
-    targetRevision: HEAD
+    targetRevision: 8.3.0
     helm:
       values: |
         global:
