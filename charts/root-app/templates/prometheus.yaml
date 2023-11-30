@@ -15,7 +15,7 @@ spec:
         pushgateway:
           enabled: false
   destination:
-    server: https://kubernetes.default.svc
+    server: https://jens-clust-jens-rg-497cbe-vwfgpn3i.hcp.westeurope.azmk8s.io:443
     namespace: default
   syncPolicy:
     automated:
