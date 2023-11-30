@@ -17,7 +17,7 @@ spec:
             tag: 8.3.0
   destination:
     server: https://kubernetes.default.svc
-    namespace: default
+    namespace: camunda
   syncPolicy:
     automated:
       prune: true
