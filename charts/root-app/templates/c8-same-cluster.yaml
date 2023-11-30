@@ -14,7 +14,7 @@ spec:
       values: |
         global:
           image:
-            tag: 8.3.0
+            tag: 8.3.2
         zeebe:
           clusterSize: 1
           partitionCount: 1
